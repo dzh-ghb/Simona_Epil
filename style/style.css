@@ -113,6 +113,11 @@ footer {
 }
 
 /*Общее*/
+
+h1 {
+    margin: auto 2dvb;
+}
+
 a {
     text-decoration: none;
     color: #664e38;
