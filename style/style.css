@@ -1,0 +1,103 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #f7cfa6 0%, #ffe8ce 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #664e38;
+    text-align: center;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    /* расстояние между элементами */
+    gap: 75px;
+    /* выравнивание по вертикали */
+    align-items: center;
+}
+
+.header_block {
+    /* каждый элемент растягивается на равную ширину */
+    flex: auto;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+}
+
+#logo {
+    text-align: right;
+}
+
+#nav {
+    text-align: left;
+}
+
+/* Основа */
+main {
+    display: grid;
+    justify-content: center;
+    flex: auto;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+/* Главная страница */
+#hero_header {
+    margin-bottom: 40px;
+    /* border: 1px solid blue; */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #fd9e3fc3;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+/* Таблица (страница с прайсом) */
+table {
+    border: 2px solid #664e38;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+td,
+th {
+    border: 1px solid #664e38;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.left_col {
+    text-align: left;
+}
+
+/* Страницы с рекомендациями */
+#before,
+#after {
+    margin: auto 10dvb;
+    /* border: 1px solid blue; */
+}
+
+.checklist {
+    text-align: justify;
+    /* border: 1px solid blue; */
+}
+
+/* Подвал */
+footer {
+    height: 100px;
+    /* border: 1px solid blue; */
+}
+
+/*Общее*/
+a {
+    text-decoration: none;
+    color: #664e38;
+}
+
+li {
+    list-style: circle;
+}
