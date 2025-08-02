@@ -34,7 +34,7 @@ header {
     width: auto;
     /* сохраняет пропорции */
     /* display: block; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 /* Адаптация для мобильных устройств (до 768px ширины экрана) */
