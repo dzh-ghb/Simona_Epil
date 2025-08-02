@@ -13,6 +13,7 @@ body {
 /* Шапка */
 header {
     display: flex;
+    margin: auto 1dvb;
     /* расстояние между элементами */
     gap: 2rem;
     /* выравнивание по вертикали */
@@ -61,6 +62,7 @@ main {
     justify-content: center;
     flex: auto;
     align-items: center;
+    margin: auto 1dvb;
     /* border: 1px solid blue; */
 }
 
@@ -98,13 +100,14 @@ th {
 
 /* Страницы с рекомендациями */
 .checklist {
-    margin: auto 3dvb;
+    margin: auto 1dvb;
     text-align: justify;
     /* border: 1px solid blue; */
 }
 
 /* Подвал */
 footer {
+    margin: auto 1dvb;
     height: 100px;
     /* border: 1px solid blue; */
 }
