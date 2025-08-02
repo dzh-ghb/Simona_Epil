@@ -1,7 +1,6 @@
 body {
     min-height: 100vh;
-    margin: auto 10dvb;
-    /* margin: 0; */
+    margin: auto;
     display: flex;
     flex-direction: column;
     background: linear-gradient(0deg, #f7cfa6 0%, #ffe8ce 100%);
@@ -27,11 +26,25 @@ header {
     /* border: 1px solid blue; */
 }
 
-/* .logo-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-} */
+/* Стиль по умолчанию — для больших экранов (десктоп) */
+.logo_img {
+    flex: auto;
+    height: 200px;
+    /* фиксированная высота */
+    width: auto;
+    /* сохраняет пропорции */
+    /* display: block; */
+    border: 1px solid blue;
+}
+
+/* Адаптация для мобильных устройств (до 768px ширины экрана) */
+@media (max-width: 400px) {
+    .logo_img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
 
 #logo {
     text-align: right;
@@ -39,6 +52,7 @@ header {
 
 #nav {
     text-align: left;
+    margin-right: 20px;
 }
 
 /* Основа */
@@ -65,6 +79,7 @@ main {
 
 /* Таблица (страница с прайсом) */
 table {
+    margin: auto 1dvb;
     border: 2px solid #664e38;
     border-radius: 5px;
     padding: 2px;
@@ -83,6 +98,7 @@ th {
 
 /* Страницы с рекомендациями */
 .checklist {
+    margin: auto 3dvb;
     text-align: justify;
     /* border: 1px solid blue; */
 }
