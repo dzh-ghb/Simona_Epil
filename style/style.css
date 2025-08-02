@@ -1,7 +1,7 @@
 body {
+    width: 90%;
     min-height: 100vh;
     margin: auto 10dvb;
-    padding: auto 10dvb;
     display: flex;
     flex-direction: column;
     background: linear-gradient(0deg, #f7cfa6 0%, #ffe8ce 100%);
@@ -26,6 +26,12 @@ header {
     margin-top: 20px;
     /* border: 1px solid blue; */
 }
+
+/* .logo-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */
 
 #logo {
     text-align: right;
