@@ -13,7 +13,7 @@ body {
 /* Шапка */
 header {
     display: flex;
-    margin: auto 1dvb;
+    margin: auto 1em;
     /* расстояние между элементами */
     gap: 2rem;
     /* выравнивание по вертикали */
@@ -62,7 +62,7 @@ main {
     justify-content: center;
     flex: auto;
     align-items: center;
-    margin: auto 1dvb;
+    margin: auto 1em;
     /* border: 1px solid blue; */
 }
 
@@ -81,7 +81,7 @@ main {
 
 /* Таблица (страница с прайсом) */
 table {
-    margin: auto 1dvb;
+    margin: auto 1em;
     border: 2px solid #664e38;
     border-radius: 5px;
     padding: 2px;
@@ -100,14 +100,14 @@ th {
 
 /* Страницы с рекомендациями */
 .checklist {
-    margin: auto 1dvb;
+    margin: auto 1em;
     text-align: justify;
     /* border: 1px solid blue; */
 }
 
 /* Подвал */
 footer {
-    margin: auto 1dvb;
+    margin: auto 1em;
     height: 100px;
     /* border: 1px solid blue; */
 }
@@ -115,7 +115,7 @@ footer {
 /*Общее*/
 
 h1 {
-    margin: auto 1.5dvb 10px 1.5dvb;
+    margin: auto 1.5em 0.5em 1.5em;
 }
 
 a {
