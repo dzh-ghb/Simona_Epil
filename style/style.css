@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
-    /* margin: 0; */
     margin: auto 10dvb;
+    padding: auto 10dvb;
     display: flex;
     flex-direction: column;
     background: linear-gradient(0deg, #f7cfa6 0%, #ffe8ce 100%);
